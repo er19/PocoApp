@@ -8,6 +8,20 @@
       "when": 1776340914096,
       "tag": "0000_previous_king_cobra",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1776359526597,
+      "tag": "0001_useful_wind_dancer",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1776366887102,
+      "tag": "0002_short_young_avengers",
+      "breakpoints": true
     }
   ]
 }

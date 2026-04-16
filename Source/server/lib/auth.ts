@@ -6,7 +6,7 @@ import {
   session,
   account,
   verification,
-} from "../db/auth-schema";
+} from "../db/schema/auth-schema";
 
 export const auth = betterAuth({
   database: drizzleAdapter(db, {
