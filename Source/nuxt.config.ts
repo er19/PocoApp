@@ -4,4 +4,10 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   modules: ["@nuxt/ui"],
   css: ["~/assets/css/main.css"],
+  ui: {
+    colors: {
+      primary: "neutral",
+      secondary: "neutral",
+    },
+  },
 });
