@@ -25,7 +25,7 @@ function handleDelete(activity: Activity) {
   <div class="max-w-3xl mx-auto px-6 pt-8">
     <!-- Header -->
     <div class="flex items-center justify-between mb-6">
-      <h1 class="text-xl font-bold text-gray-900">Activities</h1>
+      <h1 class="text-xl font-bold text-stone-900">Activities</h1>
       <UButton color="neutral" @click="handleAdd">
         + Add Activity
       </UButton>

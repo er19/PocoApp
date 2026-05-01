@@ -22,7 +22,7 @@ function formatTime(timestamp: string): string {
 
 <template>
   <div>
-    <h3 class="text-sm font-semibold text-gray-900 mb-3">Recent Sessions</h3>
+    <h3 class="text-sm font-semibold text-stone-900 mb-3">Recent Sessions</h3>
     <UTable
       :data="sessions"
       :columns="[
@@ -41,7 +41,7 @@ function formatTime(timestamp: string): string {
         </UBadge>
       </template>
       <template #timestamp-cell="{ row }">
-        <span class="text-gray-400">{{ formatTime(row.original.timestamp) }}</span>
+        <span class="text-stone-500">{{ formatTime(row.original.timestamp) }}</span>
       </template>
     </UTable>
   </div>

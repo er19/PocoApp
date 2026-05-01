@@ -17,7 +17,7 @@ function progressPercent(activity: Activity): number {
 </script>
 
 <template>
-  <div class="bg-white border border-gray-200 rounded-lg overflow-hidden">
+  <div class="bg-white border border-stone-200 rounded-lg overflow-hidden">
     <UTable
       :data="activities"
       :columns="[
@@ -45,7 +45,7 @@ function progressPercent(activity: Activity): number {
             :color="progressPercent(row.original) >= 80 ? 'success' : 'neutral'"
             class="flex-1"
           />
-          <span class="text-xs text-gray-500 whitespace-nowrap">
+          <span class="text-xs text-stone-500 whitespace-nowrap">
             {{ row.original.totalLogged }} / {{ row.original.totalGoal }} hrs
           </span>
         </div>
