@@ -15,7 +15,7 @@ defineEmits<{
     <UButton
       v-if="state === 'idle' || state === 'paused'"
       size="lg"
-      color="neutral"
+      color="primary"
       class="px-12"
       @click="$emit('start')"
     >

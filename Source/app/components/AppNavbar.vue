@@ -14,10 +14,10 @@ const avatarMenuItems = [
 </script>
 
 <template>
-  <header class="bg-white border-b border-gray-200">
+  <header class="bg-white border-b border-stone-200">
     <div class="max-w-6xl mx-auto flex items-center justify-between px-6 h-14">
       <!-- Logo -->
-      <NuxtLink to="/dashboard" class="text-base font-bold text-gray-900">
+      <NuxtLink to="/dashboard" class="text-base font-bold text-stone-900">
         Poco
       </NuxtLink>
 
@@ -29,8 +29,8 @@ const avatarMenuItems = [
           :to="item.to"
           class="text-sm transition-colors pb-0.5"
           :class="route.path === item.to
-            ? 'text-gray-900 font-semibold border-b-2 border-gray-900'
-            : 'text-gray-500 hover:text-gray-700'"
+            ? 'text-stone-900 font-semibold border-b-2 border-stone-900'
+            : 'text-stone-500 hover:text-stone-700'"
         >
           {{ item.label }}
         </NuxtLink>

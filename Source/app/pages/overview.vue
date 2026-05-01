@@ -7,7 +7,7 @@ const heatmapDays = generateMockHeatmap()
 
 <template>
   <div class="max-w-4xl mx-auto px-6 pt-8">
-    <h1 class="text-xl font-bold text-gray-900 mb-6">Overview</h1>
+    <h1 class="text-xl font-bold text-stone-900 mb-6">Overview</h1>
 
     <!-- Stat Cards -->
     <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">

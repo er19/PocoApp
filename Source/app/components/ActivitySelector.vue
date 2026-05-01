@@ -22,7 +22,7 @@ defineEmits<{
       class="w-64"
       @update:model-value="$emit('select', $event)"
     />
-    <p v-if="selected" class="text-xs text-gray-400">
+    <p v-if="selected" class="text-xs text-stone-500">
       Session duration: {{ selected.sessionDuration }} min
     </p>
   </div>

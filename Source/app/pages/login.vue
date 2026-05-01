@@ -20,7 +20,7 @@ async function loginWithGoogle() {
 </script>
 
 <template>
-  <div class="min-h-screen bg-gray-50 flex items-center justify-center px-6">
+  <div class="min-h-screen bg-stone-50 flex items-center justify-center px-6">
     <UCard class="w-full max-w-sm text-center">
       <div class="py-4">
         <p class="text-lg font-bold text-gray-900 mb-1">Poco</p>
