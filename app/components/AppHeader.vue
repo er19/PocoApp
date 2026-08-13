@@ -3,8 +3,9 @@ import type { DropdownMenuItem} from '@nuxt/ui'
 const {signOut}= useAuth()
 const items = ref<DropdownMenuItem[]>([
     {
-        label: 'Account',
-        icon: 'i-lucide-user'
+        label: 'Dashboard',
+        icon: 'i-lucide-gauge',
+        to: '/dashboard'
     },
     {
         label: 'Settings',
