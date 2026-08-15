@@ -1,7 +1,7 @@
 <script setup lang="ts">
 </script>
 <template>
-    <div class="flex justify-between">
+    <div class="grid grid-cols-4 gap-4 h-full items-stretch w-full">
         <StatsCard 
         label="Study time" 
         value="2h 20 m"

@@ -14,7 +14,7 @@
     <UCard :ui="{ body: 'p-4 sm:p-5' }">
       <div class="flex items-start justify-between">
         <div>
-          <p class="text-sm font-medium text-gray-500">{{ label }}</p>
+          <p class="font-medium text-gray-500">{{ label }}</p>
           <p class="mt-1 text-2xl font-bold tracking-tight">{{ value }}</p>
         </div>
         <div :class="`flex size-9 items-center justify-center rounded-lg bg-${color ?? 'primary'}-50`">
@@ -22,7 +22,7 @@
         </div>
       </div>
 
-      <div class="mt-3 flex items-center gap-2 text-xs text-gray-400">
+      <div class="mt-3 flex items-center gap-2 text-sm text-gray-400">
         <UBadge
           v-if="delta"
           :color="trend === 'down' ? 'error' : trend === 'flat' ? 'neutral' : 'primary'"

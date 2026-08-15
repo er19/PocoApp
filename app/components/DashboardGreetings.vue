@@ -37,7 +37,7 @@ const items = ref<NavigationMenuItem[]>([
     }])
 </script>
 <template>
-    <div class="flex justify-between ">
+    <div class="flex justify-between mx-auto w-full">
         <div>
             <h2 class="text-2xl">Good {{ partOfDay }}, (name of user)</h2>
             <NuxtTime class=""

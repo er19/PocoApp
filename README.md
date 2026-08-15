@@ -1,9 +1,3 @@
-# Need to fix/add next time
-1. Margin error
-2. logic behind button
-3. multiple view on dashboard based on period filter
-4. update data structure
-
 # Poco
 
 All-in-one study tools. Poco is a distraction-free study dashboard that puts task

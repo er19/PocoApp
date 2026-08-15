@@ -34,7 +34,7 @@ const yFormatter = (tick: number) => tick.toString()
 
 <template>
   <div
-    class="mx-auto max-w-3xl space-y-6 rounded-lg"
+    class="justify-between mx-auto w-full"
     :class="showTitle ? 'p-6' : ''"
   >
     <div class="flex items-center justify-between">
